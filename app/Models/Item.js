@@ -2,7 +2,7 @@ import { generateId } from "../Utils/generateId.js";
 
 export class Item {
   constructor (data) {
-    this.id = generateId()
+    this.id = data.id || generateId()
     // NOTE you're gonna need this, very important. This keeps track of which order I belong to
     this.orderId = data.orderId
     this.name = data.name

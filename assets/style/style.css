@@ -1,1 +1,5 @@
 /* BASIC STYLES HERE */
+
+.order-card{
+  border-top: 30px solid var(--bs-info);
+}
